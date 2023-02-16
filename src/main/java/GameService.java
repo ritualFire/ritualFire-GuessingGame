@@ -27,6 +27,8 @@ public class GameService {
      * @return true if guessNumber is equal to the secretNumber, false otherwise.
      */
     public boolean checkGuess(double guessNumber) {
-        return false;
+
+        boolean check = (guessNumber == secretNumber);
+        return check;
     }
 }
